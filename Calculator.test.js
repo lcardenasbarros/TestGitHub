@@ -22,3 +22,10 @@ test('1 / 1 es igual a 1 ', () => {
   expect(dividir(1, 1)).toBe(1);
 });
 
+const multiplicar = (a, b) => {
+  return a * b;
+};
+
+test('1 * 1 es igual a 1 ', () => {
+  expect(dividir(1, 1)).toBe(2);
+});
