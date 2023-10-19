@@ -30,3 +30,6 @@ test('1 / 1 es igual a 1 ', () => {
   expect(dividir(1, 1)).toBe(1);
 });
 
+test('5 * 5 es igual a 1 (Error)', () => {
+  expect(multiplicar(5, 5)).toBe(1);
+});
