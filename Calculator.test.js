@@ -26,6 +26,10 @@ const multiplicar = (a, b) => {
   return a * b;
 };
 
-test('1 * 1 es igual a 1 ', () => {
+test('1 / 1 es igual a 2 ', () => {
   expect(dividir(1, 1)).toBe(2);
+});
+
+test('2 / 2 es igual a 1 ', () => {
+  expect(dividir(2, 2)).toBe(1);
 });
