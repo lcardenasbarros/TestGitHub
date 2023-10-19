@@ -1,10 +1,7 @@
-// tests/example.test.js
+const suma = (a, b) => {
+  return a + b;
+};
 
-function sum(a, b) {
-    return a + b;
-  }
-  
-  test('suma de 1 + 2 debe ser igual a 3', () => {
-    expect(sum(1, 2)).toBe(3);
-  });
-  
+test('2 + 3 es igual a 5', () => {
+  expect(suma(2, 3)).toBe(5);
+});
