@@ -4,7 +4,7 @@ module.exports = {
   
     // Directorio donde se encuentra tu código fuente.
     // Esto se utiliza para medir la cobertura de código.
-    roots: ["<rootDir>/src"],
+    roots: ["<rootDir>/tests/src"],
   
     // Transforma archivos JS con Babel para que Jest pueda ejecutarlos.
     transform: {
