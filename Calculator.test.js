@@ -14,8 +14,6 @@ test('1 - 1 es igual a 0', () => {
   expect(resta(1, 1)).toBe(0);
 });
 
-
-
 const dividir = (a, b) => {
   return a / b;
 };
