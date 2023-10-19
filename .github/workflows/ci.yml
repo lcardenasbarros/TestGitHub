@@ -3,7 +3,7 @@ name: CI en Windows con Node.js y Jest
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
